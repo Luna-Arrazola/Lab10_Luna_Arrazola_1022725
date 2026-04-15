@@ -210,7 +210,6 @@ public class Trie {
         }
     }
 
-    // MEJORA 2: Implementación tipo WordDictionary
     public void addWord(String word) {
         insert(word);
     }
@@ -267,7 +266,6 @@ public class Trie {
         }
     }
 
-    // MEJORA 1: ordenar resultados alfabéticamente
     private void sortAlphabetically(java.util.ArrayList<String> listWords) {
         for (int i = 0; i < listWords.size() - 1; i++) {
             for (int j = 0; j < listWords.size() - 1 - i; j++) {
